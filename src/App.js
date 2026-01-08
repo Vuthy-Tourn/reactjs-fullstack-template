@@ -19,18 +19,18 @@ import AuthContext, { AuthContextProvider } from './components/shared/AuthContex
 import { GET_OWN_PROFILE } from './services/userService';
 function App() {
 
-  const username = 'vuthy';
-  const password = '1234556';
+  // const username = 'vuthy';
+  // const password = '1234556';
 
-  const demo = () => {
-    const msg = "Hello"
-    console.log("Message",msg);
-  }
+  // const demo = () => {
+  //   const msg = "Hello"
+  //   console.log("Message",msg);
+  // }
 
-  const demo2 = () => {
-    const msg = "Hello"
-    console.log("Message",msg);
-  }
+  // const demo2 = () => {
+  //   const msg = "Hello"
+  //   console.log("Message",msg);
+  // }
 
   // we should check whether the token is valid or not 
   // check if the access_token is valid or not 
